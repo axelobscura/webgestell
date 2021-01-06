@@ -14,7 +14,7 @@ const ThirdComponent = () => {
         <CardGestell 
           titulo="GNOSIS"
           texto="Plataforma de Gestión de Datos."
-          imagen="images/gnosislogo.png"
+          imagen="images/genosislogo.png"
         />
         <CardGestell 
           titulo="TELOS" 
