@@ -39,7 +39,7 @@ export default function Layout({children}) {
             </ul>
           </li>
           <li><Link href="/producto"><a>PRODUCTO</a></Link></li>
-          <li><Link href="/plataforma-suptech"><a>PLATAFORMA SUPTECH</a></Link></li>
+          <li><Link href="/suptech"><a>PLATAFORMA SUPTECH</a></Link></li>
           <li><Link href="/nosotros"><a>ACERCA DE NOSOTROS</a></Link></li>
           <li><Link href="/contacto"><a>CONTACTO</a></Link></li>
         </ul>
