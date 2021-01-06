@@ -51,6 +51,7 @@ a {
 
 .navegacion ul {
   margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -92,6 +93,10 @@ a {
   margin: 0 auto;
   height: 100%;
   width: auto;
+}
+
+h2.titularG {
+  text-transform: uppercase;
 }
 
 p.card-text {

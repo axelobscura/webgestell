@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 
 import FirstComponent from "./components/pageOne/FirstComponent";
 import SecondComponent from "./components/pageOne/SecondComponent";
+import ThirdComponent from "./components/pageOne/ThirdComponent";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <ReactPageScroller>
           <FirstComponent />
           <SecondComponent />
+          <ThirdComponent />
         </ReactPageScroller>
       </main>
 
