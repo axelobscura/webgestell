@@ -14,7 +14,7 @@ export default function Layout({children}) {
       </Head>
 
       <div className="cabeza">
-        <Link href="#top">
+        <Link href="/">
           <Image
             src="/images/logo.svg"
             alt="Picture of the author"

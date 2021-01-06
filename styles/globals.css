@@ -118,6 +118,11 @@ h2.titularG {
   text-transform: uppercase;
 }
 
+h3.titularG {
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
 p.card-text {
   font-family: Metropolis-Light, sans-serif;
   font-size: 0.8rem;

@@ -2,14 +2,16 @@ import React from "react";
 import Layout from './components/Layout'
 import ReactPageScroller from 'react-page-scroller';
 
-import FirstComponent from "./components/pageTelos/FirstComponent";
+import FirstComponentTelos from "./components/pageTelos/FirstComponentTelos";
+import SecondComponentTelos from "./components/pageTelos/SecondComponentTelos";
 
 export default function Telos() {
   return (
     <Layout>
       <main>
         <ReactPageScroller>
-          <FirstComponent />
+          <FirstComponentTelos />
+          <SecondComponentTelos />
         </ReactPageScroller>
       </main>
     </Layout>

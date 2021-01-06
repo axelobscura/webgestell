@@ -1,11 +1,11 @@
 import React from "react";
 
-const FirstComponent = () => {
+const FirstComponentTelos = () => {
   return (
     <div className="component fourth-component">
       <div className="mascara">
-      <h1>Telos</h1>
-      <h2 className="titularG">Regulación Automatizada</h2>
+      <h2 className="titularG">Telos</h2>
+      <h3 className="titularG">Regulación Automatizada</h3>
       </div>
       <style jsx>{`
         .fourth-component {
@@ -16,7 +16,7 @@ const FirstComponent = () => {
           align-content: center;
           height: 100vh;
           text-align: center;
-          background: url(images/bab-t-337.jpg) no-repeat center center fixed; 
+          background: url(images/bab-t-165.jpg) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -42,4 +42,4 @@ const FirstComponent = () => {
   );
 };
 
-export default FirstComponent;
+export default FirstComponentTelos;
