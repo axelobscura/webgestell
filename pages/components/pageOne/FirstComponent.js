@@ -35,8 +35,9 @@ const FirstComponent = () => {
           align-items: center;
         }
         .contenido h1.titer {
-          font-family: Metropolis-Black, sans-serif;
+          font-family: 'Poppins', sans-serif;
           text-align: center;
+          font-weight: 700;
         }
         .contenido h2 {
           font-family: Metropolis-Light, sans-serif;

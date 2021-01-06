@@ -11,6 +11,9 @@
   src: local('Metropolis-Light'), url(/fonts/Metropolis-Light.otf);
 }
 
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -71,6 +74,48 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.card {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  flex: 1 1 0px;
+}
+
+.cajaImagen {
+  width: 100%;
+  height: 100px;
+}
+
+.card-img-top {
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+p.card-text {
+  font-family: Metropolis-Light, sans-serif;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+@media (max-width: 600px) {
+  .navegacion ul li a {
+    font-size: 0.3rem;
+  }
+  .card {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border: none;
+    flex: 1 1 0px;
+  }
+  .cajaImagen {
+    width: 100%;
+    height: 50px;
+  }
+  h2.titularG {
+    font-size: 0.8rem;
+  }
 }
