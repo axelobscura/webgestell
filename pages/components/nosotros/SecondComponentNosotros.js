@@ -1,24 +1,28 @@
 import React from "react";
-import CardGestell from '../cards/CardGestell';
+import Image from 'next/image';
 
 const SecondComponentNosotros = () => {
   return (
     <div className="component second-component">
       <div className="tarjetas">
-        <CardGestell 
-          titulo="Know Your Costumer (KYC) Y Costumer Due Diligence (CDD)" 
-          texto="Automatizamos el proceso de identificación, integración y validación de información de sus clientes." 
-          imagen="images/telos1.svg"
+        <Image
+          src="/images/IRTABADGE.png"
+          alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
+          width={400}
+          height={300}
+          satyle={{ padding: '20px'}}
         />
-        <CardGestell 
-          titulo="AUTOMATIZACIÓN DE REPORTES REGULATORIOS Y ANÁLISIS PRUDENCIAL"
-          texto="Automatizamos sus reportes regulatorios y analizamos su información para obtener tendencias, composiciones y árboles de relación de indicadores de interés."
-          imagen="images/telos2.svg"
+        <Image
+          src="/images/ttx4.png"
+          alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
+          width={400}
+          height={300}
         />
-        <CardGestell 
-          titulo="ANÁLISIS TRANSACCIONAL" 
-          texto="Realizamos análisis descriptivos, históricos y predictivos de elementos de riesgo en productos, servicios, tipos de cliente, zonas geográficas y transacciones."
-          imagen="/images/telos3.svg"
+        <Image
+          src="/images/medalla.png"
+          alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
+          width={400}
+          height={300}
         />
       </div>
       <style jsx>{`
