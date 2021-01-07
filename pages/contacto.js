@@ -11,19 +11,19 @@ export default function Contacto() {
         <hr />
         <Form className="contacto">
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="NOMBRE" />
+            <Form.Control type="text" placeholder="NOMBRE" />
           </Form.Group>
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="APELLIDOS" />
+            <Form.Control type="text" placeholder="APELLIDOS" />
           </Form.Group>
           <Form.Group controlId="formBasicEmail">
             <Form.Control type="email" placeholder="EMAIL" />
           </Form.Group>
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="EMPRESA" />
+            <Form.Control type="text" placeholder="EMPRESA" />
           </Form.Group>
           <Button variant="primary" type="submit" style={{ background: '#000', border: 'none'}}>
-            Submit
+            ENVIAR DATOS
           </Button>
         </Form>
       </div>

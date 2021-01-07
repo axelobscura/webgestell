@@ -129,6 +129,16 @@ p.card-text {
   color: #777;
 }
 
+form.contacto {
+  width: 90%;
+}
+
+form.contacto input {
+  border-radius: 0;
+  background: #333333;
+  color: #fff;
+}
+
 @media (max-width: 600px) {
   .navegacion ul li a {
     font-size: 0.3rem;
