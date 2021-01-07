@@ -139,6 +139,11 @@ form.contacto input {
   color: #fff;
 }
 
+form.contacto button {
+  border-radius: 0;
+  float: right;
+}
+
 @media (max-width: 600px) {
   .navegacion ul li a {
     font-size: 0.3rem;
