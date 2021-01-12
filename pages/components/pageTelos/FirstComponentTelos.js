@@ -25,7 +25,7 @@ const FirstComponentTelos = () => {
         .mascara {
           width: 100%;
           height: 100vh;
-          background: rgba(0,0,0,0.8);
+          background: rgba(0,0,0,0.5);
           display: flex;
           flex-direction: column;
           justify-content: center;
