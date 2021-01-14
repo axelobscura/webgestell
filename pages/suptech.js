@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from './components/Layout'
 import ReactPageScroller from 'react-page-scroller';
 
@@ -7,10 +7,17 @@ import SecondComponentSuptech from "./components/pageSuptech/SecondComponentSupt
 import ThirdComponentSuptech from "./components/pageSuptech/ThirdComponentSuptech";
 
 export default function Suptech() {
+  const [count, setCount] = useState(0);
+
+  const handlePageChange = number => {
+    setCount(number)
+  };
   return (
-    <Layout>
+    <Layout pagina={count}>
       <main>
-        <ReactPageScroller>
+        <ReactPageScroller
+          pageOnChange={handlePageChange}
+        >
           <FirstComponentSuptech />
           <SecondComponentSuptech />
           <ThirdComponentSuptech />

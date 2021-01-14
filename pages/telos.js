@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from './components/Layout'
 import ReactPageScroller from 'react-page-scroller';
 
@@ -7,10 +7,17 @@ import SecondComponentTelos from "./components/pageTelos/SecondComponentTelos";
 import ThirdComponentTelos from "./components/pageTelos/ThirdComponentTelos";
 
 export default function Telos() {
+  const [count, setCount] = useState(0);
+
+  const handlePageChange = number => {
+    setCount(number)
+  };
   return (
-    <Layout>
+    <Layout pagina={count}>
       <main>
-        <ReactPageScroller>
+        <ReactPageScroller
+          pageOnChange={handlePageChange}
+        >
           <FirstComponentTelos />
           <SecondComponentTelos />
           <ThirdComponentTelos />
