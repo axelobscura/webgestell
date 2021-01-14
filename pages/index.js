@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from './components/Layout'
 import ReactPageScroller from 'react-page-scroller';
 
@@ -9,10 +9,18 @@ import FourthComponent from "./components/pageOne/FourthComponent";
 import FifthComponent from "./components/pageOne/FifthComponent";
 
 export default function Home() {
+
+  const [count, setCount] = useState(0);
+
+  const handlePageChange = number => {
+    setCount(number)
+  };
   return (
-    <Layout>
+    <Layout pagina={count}>
       <main>
-        <ReactPageScroller>
+        <ReactPageScroller
+          pageOnChange={handlePageChange}
+        >
           <FirstComponent />
           <SecondComponent />
           <ThirdComponent />

@@ -3,15 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Layout({children}) {
-  if (typeof window !== "undefined") {
-    if (window.scrollY > 20) {
-      console.log("mas de 20")
-    } else {
-      console.log("menos de 20")
-    }
-  }
-  
+export default function Layout({children, pagina}) {
+  console.log(pagina);
   return (
     <div>
       <Head>
@@ -24,7 +17,7 @@ export default function Layout({children}) {
       <div className="cabeza">
         <Link href="/">
           <Image
-            src="/images/logo_blanco.svg"
+            src={pagina === 0 ? "/images/logo_blanco.svg" : "/images/logo.svg"}
             alt="Picture of the author"
             width={70}
             height={70}
