@@ -11,7 +11,7 @@ export default function Contacto() {
         <hr />
         <Form className="contacto">
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="text" placeholder="NOMBRE" />
+            <Form.Control type="text" placeholder="NOMBRE COMPLETO" />
           </Form.Group>
           <Form.Group controlId="formBasicEmail">
             <Form.Control type="text" placeholder="APELLIDOS" />
