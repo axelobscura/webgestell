@@ -4,6 +4,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Layout({children}) {
+  if (typeof window !== "undefined") {
+    if (window.scrollY > 20) {
+      console.log("mas de 20")
+    } else {
+      console.log("menos de 20")
+    }
+  }
+  
   return (
     <div>
       <Head>
@@ -16,7 +24,7 @@ export default function Layout({children}) {
       <div className="cabeza">
         <Link href="/">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo_blanco.svg"
             alt="Picture of the author"
             width={70}
             height={70}
