@@ -131,8 +131,8 @@ p.card-text {
 }
 
 p.titularG {
-  text-align: left;
-    padding-left: 20px;
+  text-align: justify;
+  padding-left: 20px;
 }
 
 form.contacto {

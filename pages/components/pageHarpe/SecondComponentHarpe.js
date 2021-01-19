@@ -4,11 +4,11 @@ import Image from 'next/image'
 const SecondComponentHarpe = () => {
   return (
     <div className="component fourth-component-telos">
-      <Image
+      <img
         src="/images/harpelogo.svg"
         alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-        width={700}
-        height={700}
+        width={200}
+        height={200}
       />
       <p className="titularG">Harpe encuadra la complejidad de su problemática de negocio utilizando herramientas de aprendizaje supervisado y no supervisado (machine learning) que se adaptan a las condiciones cambiantes del sector financiero de manera ágil y sencilla. Ofrecemos soluciones escalables y personalizadas para automatizar su área jurídica, fiscal y de gestión de riesgos crediticios.</p>
       <style jsx>{`
