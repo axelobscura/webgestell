@@ -7,10 +7,10 @@ const SecondComponentTelos = () => {
       <Image
         src="/images/teloslogo.svg"
         alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-        width={300}
-        height={300}
+        width={200}
+        height={200}
       />
-      <p className="titularG">Telos automatiza sus procesos de cumplimiento regulatorio y prevención de lavado de dinero utilizando técnicas de inteligencia artificial.</p>
+      <p className="titularG">Telos automatiza sus procesos de cumplimiento regulatorio y prevención de lavado de dinero<br/>utilizando técnicas de inteligencia artificial.</p>
       <style jsx>{`
         .fourth-component-telos {
           display: flex;

@@ -116,6 +116,7 @@ a {
 
 h2.titularG {
   text-transform: uppercase;
+  
 }
 
 h3.titularG {
@@ -127,6 +128,11 @@ p.card-text {
   font-family: Metropolis-Light, sans-serif;
   font-size: 0.8rem;
   color: #777;
+}
+
+p.titularG {
+  text-align: left;
+    padding-left: 20px;
 }
 
 form.contacto {
