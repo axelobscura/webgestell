@@ -144,6 +144,15 @@ form.contacto button {
   float: right;
 }
 
+.icon1 {
+  cursor: pointer;
+}
+
+.icon1.dasein_logo {
+  width: 115px;
+  height: 120px;
+}
+
 @media (max-width: 600px) {
   .navegacion ul li a {
     font-size: 0.3rem;
@@ -161,5 +170,9 @@ form.contacto button {
   }
   h2.titularG {
     font-size: 0.8rem;
+  }
+  .icon1.dasein_logo {
+    width: 60px;
+    height: 60px;
   }
 }

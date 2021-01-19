@@ -4,6 +4,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Layout({children, pagina}) {
+  let laPagina;
+  if(pagina == 0){
+    laPagina = "/images/logo_blanco.svg"
+  } else if(pagina == '3'){
+    laPagina = "/images/logo_blanco.svg"
+  } else {
+    laPagina = "/images/logo.svg"
+  }
   return (
     <div>
       <Head>
@@ -16,7 +24,7 @@ export default function Layout({children, pagina}) {
       <div className="cabeza">
         <Link href="/">
           <Image
-            src={pagina === 0 ? "/images/logo_blanco.svg" : "/images/logo.svg"}
+            src={laPagina}
             alt="Picture of the author"
             width={70}
             height={70}

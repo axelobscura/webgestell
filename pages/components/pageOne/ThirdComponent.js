@@ -10,21 +10,25 @@ const ThirdComponent = () => {
           titulo="DASEIN" 
           texto="Plataforma SupTech." 
           imagen="images/daseinlogo.png"
+          enlace="/suptech"
         />
         <CardGestell 
           titulo="GNOSIS"
           texto="Plataforma de Gestión de Datos."
           imagen="images/genosislogo.png"
+          enlace="/producto"
         />
         <CardGestell 
           titulo="TELOS" 
           texto="Plataforma Regulatoria."
           imagen="/images/teloslogo.png"
+          enlace="/telos"
         />
         <CardGestell 
           titulo="HARPE" 
           texto="Solución de Business Analytics."
           imagen="/images/harpelogo.png"
+          enlace="/harpe"
         />
       </div>
       <style jsx>{`
