@@ -5,25 +5,31 @@ const SecondComponentNosotros = () => {
   return (
     <div className="component second-component">
       <div className="tarjetas">
+        <div className="tar">
         <Image
           src="/images/IRTABADGE.png"
           alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-          width={400}
-          height={300}
+          width={300}
+          height={200}
           satyle={{ padding: '20px'}}
         />
+        </div>
+        <div className="tar">
         <Image
           src="/images/ttx4.png"
           alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-          width={400}
-          height={300}
+          width={300}
+          height={200}
         />
+        </div>
+        <div className="tar">
         <Image
           src="/images/medalla.png"
           alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-          width={400}
-          height={300}
+          width={300}
+          height={200}
         />
+        </div>
       </div>
       <style jsx>{`
         .second-component {
@@ -41,6 +47,10 @@ const SecondComponentNosotros = () => {
           display: flex;
           flex-direction: row;
           padding: 10px;
+          justify-content: space-around;
+        }
+        .tarjetas -tar {
+
         }
         @media (max-width: 600px) {
           .tarjetas {

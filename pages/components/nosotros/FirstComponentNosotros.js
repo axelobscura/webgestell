@@ -7,8 +7,8 @@ const FirstComponentNosotros = () => {
       <Image
         src="/images/nosotros.svg"
         alt="GESTELL Inteligencia Artificial y Automatización de Procesos para el Sector Financiero"
-        width={590}
-        height={590}
+        width={400}
+        height={400}
       />
       <p className="titularG">En Gestell encuadramos las nuevas tecnologías en sistemas inteligentes que vuelven más eficiente la operación de las Instituciones Financieras.<br/><br/>Nuestra filosofía es ofrecer soluciones agiles, escalables y de implementación sencilla que empoderen a nuestros clientes a través de un control de su información.</p>
       <style jsx>{`
