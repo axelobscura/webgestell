@@ -55,6 +55,13 @@ const SecondComponentNosotros = () => {
         @media (max-width: 600px) {
           .tarjetas {
             flex-direction: column;
+            justify-content: space-around;
+            flex-align: center;
+            justify-content: center;
+          }
+          .tar {
+            text-align:center;
+            margin-top: 10px;
           }
         }
       `}</style>
