@@ -48,6 +48,7 @@ const SecondComponentNosotros = () => {
           flex-direction: row;
           padding: 10px;
           justify-content: space-around;
+          background: red;
         }
         .tarjetas -tar {
 
