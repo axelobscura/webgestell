@@ -18,7 +18,7 @@ const SecondComponent = () => {
         />
         <CardGestell 
           titulo="BUSINESS ANALYTICS" 
-          texto="Utilizamos la ciencia de datos para resolver problemas complejos con ideas simples. Aplicamos herramientas de vanguardia para realizar análisi históricos, predictivos y en tiempo real de manera rápida y sencilla."
+          texto="Utilizamos la ciencia de datos para resolver problemas complejos con ideas simples. Aplicamos herramientas de vanguardia para realizar análisis históricos, predictivos y en tiempo real de manera rápida y sencilla."
           imagen="/images/icon3.png"
         />
       </div>

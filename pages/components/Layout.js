@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Layout({children, pagina}) {
+export default function Layout({children, pagina = 0}) {
   let laPagina;
   if(pagina == 0){
     laPagina = "/images/logo_blanco.svg"
@@ -12,6 +12,7 @@ export default function Layout({children, pagina}) {
   } else {
     laPagina = "/images/logo.svg"
   }
+  console.log(laPagina);
   return (
     <div>
       <Head>
