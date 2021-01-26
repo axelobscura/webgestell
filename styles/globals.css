@@ -159,6 +159,21 @@ form.contacto button {
   height: 120px;
 }
 
+.fourth-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url(/images/baber.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media (max-width: 600px) {
   .navegacion ul li a {
     font-size: 0.3rem;

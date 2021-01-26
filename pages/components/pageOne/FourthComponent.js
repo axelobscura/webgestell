@@ -16,7 +16,7 @@ const FourthComponent = () => {
           align-content: center;
           height: 100vh;
           text-align: center;
-          background: url(images/bab-t-337.jpg) no-repeat center center fixed; 
+          background: url(images/baber.jpg) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
