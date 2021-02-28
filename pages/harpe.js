@@ -21,6 +21,7 @@ export default function Harpe() {
           <FirstComponentHarpe />
           <SecondComponentHarpe />
           <ThirdComponentHarpe />
+          <div>test</div>
         </ReactPageScroller>
       </main>
     </Layout>
